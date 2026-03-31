@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+slurm_*.out
+slurm_*.err
+*.log
+.env
