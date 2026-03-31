@@ -1,10 +1,6 @@
 """
 Experiment 1: Energy-based VAD for Sound Event Detection
 
-Approach:
-  - Compute short-time RMS energy at 20ms frame resolution
-  - Sweep a global energy threshold on train set to maximize frame-level F1
-  - Evaluate frame-level detection on test set
 """
 
 import numpy as np
