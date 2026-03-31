@@ -61,15 +61,6 @@ python run_all.py 1 3 9
 python snr_analysis.py
 ```
 
-### SLURM (GPU cluster)
-
-```bash
-sbatch run_experiments.slurm    # Exp 1-3
-sbatch run_new_experiments.slurm # Exp 4-7
-sbatch run_exp8.slurm           # Exp 8
-sbatch run_exp9.slurm           # Exp 9a-d
-```
-
 ## Shared Utilities
 
 - `data_utils.py` -- dataset loading, audio/label extraction, SED metrics
