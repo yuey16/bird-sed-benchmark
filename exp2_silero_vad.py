@@ -2,8 +2,7 @@
 Experiment 2: Off-the-shelf Speech VAD (Silero VAD) for Sound Event Detection
 
 Approach:
-  - Run Silero VAD to get speech timestamps for each clip
-  - Convert timestamps to 20ms frame-level binary predictions
+  - Run Silero VAD to get speech timestamps for each cliP
   - Evaluate frame-level detection against GT bird-call labels
   - Note: Silero is a *speech* VAD, so this tests whether speech VAD
     can transfer to detecting bird vocalizations (likely limited)
