@@ -3,10 +3,6 @@
 import numpy as np
 from datasets import load_dataset
 
-DATASET_ID = "Liangjingyong1/data_final"
-FRAME_SHIFT_MS = 20  # each label frame = 20ms
-
-
 def load_data():
     """Load dataset. Returns (train_ds, test_ds, sr).
     Auto-splits into 80/20 since dataset has only a 'train' split.
