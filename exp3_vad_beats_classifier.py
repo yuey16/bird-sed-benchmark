@@ -3,7 +3,7 @@ Experiment 3: Off-the-shelf Speech VAD + BEATs Linear Target Classifier
 
 Approach:
   1. Extract BEATs frame-level features (768-dim, ~50 frames per 10s clip)
-  2. Interpolate BEATs features to match 20ms label resolution (500 frames)
+  2. Interpolate BEATs features to match label resolution 
   3. Compute Silero VAD frame-level speech indicator as an extra feature
   4. Concatenate: [BEATs_768 | vad_flag_1] = 769-dim per frame
   5. Train a logistic regression on frame-level features vs GT labels
