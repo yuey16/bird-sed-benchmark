@@ -4,7 +4,7 @@ Experiment 7: AVES — Animal Vocalization Encoder + Linear Classifier
 Approach:
   - AVES (esp_aves2_sl_beats_bio) is a BEATs model fine-tuned on bioacoustics data
   - Extract frame-level embeddings (768-dim, ~496 frames per 10s clip)
-  - Interpolate to 20ms label resolution (500 frames)
+  - Interpolate to label resolution 
   - Train logistic regression on frame-level features
   - Compare with Exp 3 (general BEATs) to see if domain-specific pretraining helps
 """
