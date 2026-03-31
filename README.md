@@ -1,9 +1,3 @@
-# Bird Call Sound Event Detection -- Benchmark Experiments
-
-Frame-level sound event detection (SED) experiments on the
-[Liangjingyong1/data_final](https://huggingface.co/datasets/Liangjingyong1/data_final) dataset.
-
-Each audio clip has 20 ms frame-level binary labels indicating bird-call activity.
 
 ## Experiments
 
