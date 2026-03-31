@@ -1,7 +1,4 @@
-"""
-SNR Analysis of the Liangjingyong1/data_final dataset.
-
-For each clip, uses frame-level binary labels to segment the waveform into
+"""For each clip, uses frame-level binary labels to segment the waveform into
 "signal" (bird-call active) and "noise" (background) regions, then computes:
   SNR_clip = 10 * log10( mean_power_signal / mean_power_noise )
 
@@ -169,10 +166,6 @@ def analyse_dataset(dataset, name="Dataset"):
 
 
 def main():
-    print("=" * 60)
-    print("SNR ANALYSIS of Liangjingyong1/data_final")
-    print("=" * 60)
-
     train_ds, test_ds = load_data()
 
     print("\n--- Analysing FULL dataset (train + test) ---")
